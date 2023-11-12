@@ -1,0 +1,57 @@
+* 
+{
+  margin: 2;
+  padding: 2;
+}
+body{
+    background: black;
+    color: white;
+}
+.nav li{
+    display: inline-block;
+
+}
+.logo, .nav, .switch{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav a{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.nav a:hover{
+    color: #bdae82;
+}
+.switch a{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.switch__en a:hover{
+    color: #bdae82;
+}
+.switch__ru a:hover{
+    color: #bdae82;
+}
+.switch__en, .switch__palka, .switch__ru{
+    display: inline-block;
+}
+.bg{
+    background-repeat: no-repeat;
+}
+.button{
+    background-color: #bdae82;
+    color: black;
+    height: 55px;
+    width: 220px;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: middle;
+}
